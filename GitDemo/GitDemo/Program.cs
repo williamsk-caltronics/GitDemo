@@ -22,12 +22,11 @@ namespace GitDemo
         public static void Add(int a, int b)
         {
             Console.WriteLine($"The sum of the two numbers is {a + b}");
-            Console.Read();
         }
 
         public static void Average(int a, int b)
         {
-            Console.WriteLine("The average of the two numbers is");
+            Console.Write("\nThe average of the two numbers is ");
             Console.WriteLine((a + b) / 2);
             Console.Read();
         }
