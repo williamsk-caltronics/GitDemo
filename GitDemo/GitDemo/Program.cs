@@ -15,6 +15,11 @@ namespace GitDemo
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter another number");
             int b = Convert.ToInt32(Console.ReadLine());
+            Add(a, b);
+        }
+
+        static void Add(int a, int b)
+        {
             Console.WriteLine($"The sum of the two numbers is {a + b}");
             Console.Read();
         }
