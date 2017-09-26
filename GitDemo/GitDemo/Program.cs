@@ -27,7 +27,7 @@ namespace GitDemo
         static void Average(int a, int b)
         {
             Console.Write("Average: ");
-            Console.WriteLine((a + b) / 2 * 42);
+            Console.WriteLine((a + b) / 2);
             Console.Read();
         }
     }
